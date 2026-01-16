@@ -1,19 +1,14 @@
-Here’s a **complete, clean, and professional `README.md`** for your **React Calculator App**.
-You can **directly copy–paste** this into your GitHub repository 👇
-
----
-
 ```md
 # 🧮 React Calculator App
 
-A modern calculator application built using **React.js** that supports basic arithmetic operations along with calculation history.
+A modern calculator application built using React.js that supports basic arithmetic operations and displays calculation history.
 
 ## 🚀 Features
-- Perform basic arithmetic operations (+, −, ×, ÷, %)
-- Supports parentheses for complex expressions
-- Displays real-time calculation results
-- Maintains session-based calculation history
-- Clean and responsive user interface
+- Basic arithmetic operations (+, −, ×, ÷, %)
+- Parentheses support
+- Real-time calculation results
+- Session-based calculation history
+- Clean and responsive UI
 
 ## 🛠️ Tech Stack
 - React.js
@@ -41,7 +36,7 @@ src/
 - Node.js
 - npm
 
-### Installation & Run
+### Installation
 ```bash
 git clone https://github.com/your-username/react-calculator.git
 cd react-calculator
@@ -49,32 +44,20 @@ npm install
 npm start
 ````
 
-The app will run on:
+## 📌 Description
 
-```
-http://localhost:3000
-```
+The application uses React functional components and hooks to manage calculator logic and history.
+Calculation history is stored temporarily and resets on page refresh.
 
-## 📌 How It Works
-
-* Calculator logic is handled using React state and hooks
-* User inputs are evaluated dynamically
-* Each calculation is stored temporarily in session history
-* History resets on page refresh
-
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
 * Persistent history using localStorage
 * Keyboard input support
-* Scientific calculator mode
-* Improved UI animations
+* Scientific calculator features
 
 ## 👤 Author
 
-**Sam Davis**
+Sam Davis
 
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
-
+```
 ```
