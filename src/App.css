@@ -1,0 +1,102 @@
+.Main{
+  height: 100vh;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.calculator{
+  margin-right: 5rem;
+}
+
+.hist{
+  margin-right: 5rem;
+
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: right;
+  border: none;
+  background: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
+
+.history {
+  margin-top: 15px;
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  height: 90vh;
+  width: 20vw;
+  color: snow;
+  font-size: 1.25rem;
+}
+
+.history h3{
+  margin-left: 1rem;
+}
+
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
