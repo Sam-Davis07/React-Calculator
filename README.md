@@ -1,4 +1,3 @@
-```md
 # 🧮 React Calculator App
 
 A modern calculator application built using React.js that supports basic arithmetic operations and displays calculation history.
@@ -59,5 +58,3 @@ Calculation history is stored temporarily and resets on page refresh.
 
 Sam Davis
 
-```
-```
